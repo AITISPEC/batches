@@ -5,39 +5,39 @@
 
 | Файл | Описание |
 |------|----------|
-| `AITISPEC_ADB_WiFi.bat` | Подключение к Android-устройству по ADB через Wi-Fi (выбор IP). |
-| `AITISPEC_AdminCheck.bat` | Проверка, запущен ли скрипт от имени администратора. |
-| `AITISPEC_UnhideFiles.bat` | Снимает атрибуты `скрытый`, `системный` и `только чтение` со всех файлов в текущей папке. |
-| `AITISPEC_BlockEXE.bat` | Добавляет правила в брандмауэр Windows для блокировки исходящих соединений всех `.exe` в текущей папке и подпапках. |
-| `AITISPEC_CreateShortcut.bat` | Создаёт ярлык на рабочем столе для перетащенного `.exe`. |
-| `AITISPEC_DriverSignature.bat` | Управление проверкой цифровой подписи драйверов и тестовым режимом (3 пункта, русский интерфейс). |
-| `AITISPEC_FirewallOFF.bat` | Полностью отключает брандмауэр Windows для всех профилей. |
-| `AITISPEC_FirewallON.bat` | Включает брандмауэр Windows. |
-| `AITISPEC_FlushDNS.bat` | Сбрасывает Winsock, IP и DNS-кэш. |
-| `AITISPEC_FTP.bat` | Открывает в проводнике FTP-серверы по локальным IP (порт 6559) с быстрой проверкой доступности через ping. |
-| `AITISPEC_IconCacheCleaner.bat` | Очищает кэш иконок и перезагружает компьютер. |
-| `AITISPEC_RestartTPLink.bat` | Перезапускает сетевой интерфейс "TP-Link" при потере связи с 8.8.8.8. |
-| `AITISPEC_ShutdownTimer.bat` | Устанавливает таймер выключения компьютера (в минутах) с корректной отменой. |
-| `AITISPEC_StartupFolders.bat` | Открывает папку автозагрузки текущего пользователя или всех пользователей. |
-| `AITISPEC_SystemScore.bat` | Запускает оценку производительности Windows (WinSAT) или показывает разобранные результаты из XML. |
-| `AITISPEC_CBSLogToTXT.bat` | Извлекает строки с `[SR]` из CBS.log и сохраняет на рабочем столе как `sfcdetails.txt`. |
-| `AITISPEC_ChkDsk.bat` | Запускает `chkdsk /f /r` (проверка диска при следующей загрузке). |
-| `AITISPEC_RestoreHealth.bat` | Запускает `DISM /RestoreHealth` для восстановления образа системы. |
-| `AITISPEC_ScanHealth.bat` | Запускает `DISM /ScanHealth` – проверка образа системы на повреждения. |
-| `AITISPEC_ScanNow.bat` | Запускает `sfc /scannow` – проверка целостности системных файлов. |
-| `AITISPEC_StoreAppsReset.cmd` | Сброс Microsoft Store и приложений Windows 10 (очистка кэша, перерегистрация). |
-| `AITISPEC_PreSleep.bat` | Задержка на заданное количество минут, затем имитация нажатия `Ctrl+Tab` и пробел (требуется `nircmd.exe`). |
-| `AITISPEC_InstallDevcon.bat` | Устанавливает утилиты `devcon.exe` / `devcon64.exe` в систему (должны лежать рядом). |
-| `AITISPEC_Error0x81000203.bat` | Восстанавливает службу теневого копирования (ошибка 0x81000203). |
-| `AITISPEC_EnableWindowsDefender.bat` | Включает Защитник Windows и центр безопасности через импорт `WinDefend.reg` и `wscsvc.reg`. |
+| `ADB_WiFi.bat` | Подключение к Android-устройству по ADB через Wi-Fi (выбор IP). |
+| `AdminCheck.bat` | Проверка, запущен ли скрипт от имени администратора. |
+| `UnhideFiles.bat` | Снимает атрибуты `скрытый`, `системный` и `только чтение` со всех файлов в текущей папке. |
+| `BlockEXE.bat` | Добавляет правила в брандмауэр Windows для блокировки исходящих соединений всех `.exe` в текущей папке и подпапках. |
+| `CreateShortcut.bat` | Создаёт ярлык на рабочем столе для перетащенного `.exe`. |
+| `DriverSignature.bat` | Управление проверкой цифровой подписи драйверов и тестовым режимом (3 пункта, русский интерфейс). |
+| `FirewallOFF.bat` | Полностью отключает брандмауэр Windows для всех профилей. |
+| `FirewallON.bat` | Включает брандмауэр Windows. |
+| `FlushDNS.bat` | Сбрасывает Winsock, IP и DNS-кэш. |
+| `FTP.bat` | Открывает в проводнике FTP-серверы по локальным IP (порт 6559) с быстрой проверкой доступности через ping. |
+| `IconCacheCleaner.bat` | Очищает кэш иконок и перезагружает компьютер. |
+| `RestartTPLink.bat` | Перезапускает сетевой интерфейс "TP-Link" при потере связи с 8.8.8.8. |
+| `ShutdownTimer.bat` | Устанавливает таймер выключения компьютера (в минутах) с корректной отменой. |
+| `StartupFolders.bat` | Открывает папку автозагрузки текущего пользователя или всех пользователей. |
+| `SystemScore.bat` | Запускает оценку производительности Windows (WinSAT) или показывает разобранные результаты из XML. |
+| `CBSLogToTXT.bat` | Извлекает строки с `[SR]` из CBS.log и сохраняет на рабочем столе как `sfcdetails.txt`. |
+| `ChkDsk.bat` | Запускает `chkdsk /f /r` (проверка диска при следующей загрузке). |
+| `RestoreHealth.bat` | Запускает `DISM /RestoreHealth` для восстановления образа системы. |
+| `ScanHealth.bat` | Запускает `DISM /ScanHealth` – проверка образа системы на повреждения. |
+| `ScanNow.bat` | Запускает `sfc /scannow` – проверка целостности системных файлов. |
+| `StoreAppsReset.cmd` | Сброс Microsoft Store и приложений Windows 10 (очистка кэша, перерегистрация). |
+| `PreSleep.bat` | Задержка на заданное количество минут, затем имитация нажатия `Ctrl+Tab` и пробел (требуется `nircmd.exe`). |
+| `InstallDevcon.bat` | Устанавливает утилиты `devcon.exe` / `devcon64.exe` в систему (должны лежать рядом). |
+| `Error0x81000203.bat` | Восстанавливает службу теневого копирования (ошибка 0x81000203). |
+| `EnableWindowsDefender.bat` | Включает Защитник Windows и центр безопасности через импорт `WinDefend.reg` и `wscsvc.reg`. |
 
 ## ⚙️ Требования
 
 - Windows 7 / 8 / 10 / 11 (некоторые функции могут быть недоступны в старых версиях).
-- Для `AITISPEC_ADB_WiFi.bat` требуется [ADB (Android Debug Bridge)](https://developer.android.com/studio/releases/platform-tools) в `PATH` или рядом.
-- Для `AITISPEC_PreSleep.bat` требуется [nircmd.exe](https://www.nirsoft.net/utils/nircmd.html) в той же папке или в `PATH`.
-- Для `AITISPEC_InstallDevcon.bat` нужны файлы `devcon.exe` и `devcon64.exe` из Windows Driver Kit (WDK) в той же папке.
-- Для `AITISPEC_EnableWindowsDefender.bat` нужны файлы `WinDefend.reg` и `wscsvc.reg` (экспортированные ветки реестра с работающей системы).
+- Для `ADB_WiFi.bat` требуется [ADB (Android Debug Bridge)](https://developer.android.com/studio/releases/platform-tools) в `PATH` или рядом.
+- Для `PreSleep.bat` требуется [nircmd.exe](https://www.nirsoft.net/utils/nircmd.html) в той же папке или в `PATH`.
+- Для `InstallDevcon.bat` нужны файлы `devcon.exe` и `devcon64.exe` из Windows Driver Kit (WDK) в той же папке.
+- Для `EnableWindowsDefender.bat` нужны файлы `WinDefend.reg` и `wscsvc.reg` (экспортированные ветки реестра с работающей системы).
 
 ## 🚀 Использование
 
@@ -49,7 +49,7 @@
 
 ## 📄 Лицензия
 
-Данный набор скриптов распространяется как есть, без каких-либо гарантий. Вы можете свободно использовать, изменять и распространять их с указанием авторства (MIT License).
+Данный набор скриптов распространяется как есть, без каких-либо гарантий. Вы можете свободно использовать, изменять и распространять их с указанием авторства.
 
 ## ⚠️ Внимание
 
