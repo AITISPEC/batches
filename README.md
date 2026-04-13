@@ -35,7 +35,7 @@
 
 - Windows 7 / 8 / 10 / 11 (некоторые функции могут быть недоступны в старых версиях).
 - Для `ADB_WiFi.bat` требуется [ADB (Android Debug Bridge)](https://developer.android.com/studio/releases/platform-tools) в `PATH` или рядом.
-- Для `PreSleep.bat` требуется [nircmd.exe](https://www.nirsoft.net/utils/nircmd.html) в той же папке или в `PATH`.
+- Для `NIRTimer.bat` требуется [nircmd.exe](https://www.nirsoft.net/utils/nircmd.html) в той же папке или в `PATH`.
 - Для `InstallDevcon.bat` нужны файлы `devcon.exe` и `devcon64.exe` из Windows Driver Kit (WDK) в той же папке.
 - Для `EnableWindowsDefender.bat` нужны файлы `WinDefend.reg` и `wscsvc.reg` (экспортированные ветки реестра с работающей системы).
 
