@@ -26,7 +26,7 @@
 | `ScanHealth.bat` | Запускает `DISM /ScanHealth` – проверка образа системы на повреждения. |
 | `ScanNow.bat` | Запускает `sfc /scannow` – проверка целостности системных файлов. |
 | `StoreAppsReset.cmd` | Сброс Microsoft Store и приложений Windows 10 (очистка кэша, перерегистрация). |
-| `PreSleep.bat` | Задержка на заданное количество минут, затем имитация нажатия `Ctrl+Tab` и пробел (требуется `nircmd.exe`). |
+| `NIRTimer.bat` | Задержка на заданное количество минут, затем имитация нажатия `Ctrl+Tab` и пробел (требуется `nircmd.exe`). |
 | `InstallDevcon.bat` | Устанавливает утилиты `devcon.exe` / `devcon64.exe` в систему (должны лежать рядом). |
 | `Error0x81000203.bat` | Восстанавливает службу теневого копирования (ошибка 0x81000203). |
 | `EnableWindowsDefender.bat` | Включает Защитник Windows и центр безопасности через импорт `WinDefend.reg` и `wscsvc.reg`. |
