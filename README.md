@@ -29,6 +29,7 @@
 | `InstallDevcon.bat` | Устанавливает утилиты `devcon.exe` / `devcon64.exe` в систему (должны лежать рядом). |
 | `Error0x81000203.bat` | Восстанавливает службу теневого копирования (ошибка 0x81000203). |
 | `EnableWindowsDefender.bat` | Включает Защитник Windows и центр безопасности через импорт `WinDefend.reg` и `wscsvc.reg`. |
+| `GameDVR_Timer.bat` | Изменение максимальной длительности записи Xbox Game Bar (MaximumRecordLength) в HKCU\...\GameDVR. Поддерживает тайминги 5/10/15/30 мин, 1/2/4 часа. |
 
 ## ⚙️ Требования
 
